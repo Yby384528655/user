@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>下拉</title>
+	<script type="text/javascript" src='../jquery-1.11.3.min.js'></script>
+	<style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+        }
+		#continer{
+			width:100%;
+		}
+		#continer .top{
+			width:100%;
+			height:1000px;
+		}
+		#continer .bottom{
+			width:100%;
+			height:1000px;
+			display:none;
+		}
+	</style>
+</head>
+<body>
+<div id="continer">
+	<div class="top" id="contop">asdfasdfasdf</div>
+	<div class="bottom" id="conbottom">adsf</div>
+</div>
+
+<script type="text/javascript">
+	$('#contop').html('1234');
+    $(window).scrollHeight({})
+</script>
+</body>
+</html>

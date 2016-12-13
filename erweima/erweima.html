@@ -1,0 +1,23 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>二维码</title>
+	<script type="text/javascript" src='../jquery-1.11.3.min.js'></script>
+	<script type="text/javascript" src='qrcode.js'></script>
+	<script type="text/javascript" src='jquery.qrcode.js'></script>
+	<style>
+		*{margin:0;padding:0;}
+
+	</style>
+</head>
+<body>
+	<div class="qrcodeTable" style="width:120px;height:120px;"></div>
+</body>
+<script type="text/javascript">
+    $(function(){		
+		$(".qrcodeTable").each(function(){
+			$(this).qrcode({text: 'https://www.baidu.com',width:120,height:120});
+		});
+	});
+</script>
+</html>
