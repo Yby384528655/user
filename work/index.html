@@ -84,5 +84,95 @@
       </ul>
     </div>
   </div>
+  <div class="myTab2">
+  	<div class="myTab2Cont">
+	<ul id="myTab" class="nav nav-tabs">
+	   <li class="active"><a href="#home1" data-toggle="tab">
+	      Tutorial Point Home</a>
+	   </li>
+	   <li><a href="#ios1" data-toggle="tab">iOS</a></li>
+	   <li><a href="#jmeter1" data-toggle="tab">
+		   jmeter</a>
+		</li>
+	</ul>
+	</div>
+	<div id="myTabContent" class="tab-content">
+	   <div class="tab-pane fade in active" id="home1">
+	      <ul>
+	      	<li></li>
+	      	<li></li>
+	      	<li></li>
+	      	<li></li>
+	      	<li></li>
+	      	<li></li>
+	      </ul>
+	   </div>
+	   <div class="tab-pane fade" id="ios1">
+	      <ul>
+	      	<li></li>
+	      	<li></li>
+	      	<li></li>
+	      	<li></li>
+	      	<li></li>
+	      	<li></li>
+	      </ul>
+	   </div>
+	   <div class="tab-pane fade" id="jmeter1">
+	      <ul>
+	      	<li></li>
+	      	<li></li>
+	      	<li></li>
+	      	<li></li>
+	      	<li></li>
+	      	<li></li>
+	      </ul>
+	   </div>
+	</div>
+</div>
+<div class="sidebar">
+	<div class="widget fix">
+		<h3 class="widget-title"><a href="index.html">默认滚动到这里开始固定</a></h3>
+		<div class="widget-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, consequatur, dolorem eaque culpa ut iste tempora molestias repudiandae magni quo excepturi sapiente nisi reprehenderit omnis ea! Libero aspernatur fugit beatae?</div>
+	</div>
+	<div class="widget active fix-top" style="z-index: auto; position: static; width: 298px;">
+		<h3 class="widget-title"><a href="index2.html">滚动到距离这里顶部20像素开始固定</a></h3>
+		<div class="widget-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, culpa, officia, tempore, et vel earum delectus obcaecati ducimus at voluptates odio aliquid quis nulla illo veniam non dolorem molestias voluptas!</div>
+	</div>
+	<div class="widget fix-startTop">
+		<h3 class="widget-title"><a href="index3.html">滚动到一个标签#startTop的头部开始固定</a></h3>
+		<div class="widget-box">Top Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, itaque, deleniti, et, odio molestias consectetur eos quisquam cumque quia consequuntur quaerat pariatur debitis soluta! Iste modi asperiores voluptatibus veniam laborum.<div id="startTop">这是#start</div></div>
+	</div>
+	<div class="widget fix-startBottom">
+		<h3 class="widget-title"><a href="index4.html">滚动到一个标签#startBottom的末端开始固定</a></h3>
+		<div class="widget-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, earum aliquid quia facere dolorum nam ipsa quae ullam ea laboriosam deleniti perferendis similique odit at ducimus rerum porro maxime aut.<div id="startBottom">这是#startBottom的末端这是#startBottom的末端这是#startBottom的末端这是#startBottom的末端 </div></div>
+	</div>
+	<div class="widget fix-bottom">
+		<h3 class="widget-title"><a href="index5.html">滚动停在底部300像素</a></h3>
+		<div class="widget-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, obcaecati, omnis eaque dolorem quam inventore ipsum dignissimos non esse doloremque qui consequatur eius fuga aspernatur facere corporis porro sit distinctio!</div>
+	</div>
+	<div class="widget fix-footer">
+		<h3 class="widget-title"><a href="index6.html">滚动停在底部#fixFooter的位置</a></h3>
+		<div class="widget-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, officia libero quia animi voluptates autem quae voluptate aut. Iusto, iste, at dolor fugiat nisi nihil ea dicta nostrum voluptates ducimus?</div>
+	</div>
+</div>
+<script type="text/javascript" src='./js/scrollfix.js'></script>
+<script type="text/javascript">
+	$(function(){
+		var fix = $(".fix"), fixtop = $(".fix-top"), fixStartTop = $(".fix-startTop"), fixStartBottom = $(".fix-startBottom"), fixbottom = $(".fix-bottom"), fixfooter = $(".fix-footer");
+		//第一种情况
+		// fix.scrollFix();
+		//第二种情况
+		fixtop.scrollFix({distanceTop:0});
+		//第三种情况
+		// fixStartTop.scrollFix({startTop:"#startTop"});
+		//第四种情况
+		// fixStartBottom.scrollFix({startBottom:"#startBottom"});
+		//第五种情况
+		// fixbottom.scrollFix({endPos:300});
+		//第六种情况
+		// fixfooter.scrollFix({endPos:"#fixFooter"})
+	})
+
+</script>
 </body>
 </html>
