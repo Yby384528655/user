@@ -1,1 +1,8 @@
-@font-face {font-family: 'fzlantingheis-ul-gbregular';src: url('fzltxhjt.eot?#iefix') format('embedded-opentype'),url('fzltxhjt.woff2') format('woff2'),url('fzltxhjt.woff') format('woff'),url('fzltxhjt.ttf') format('truetype'),url('fzltxhjt.svg#fzlantingheis-ul-gbregular') format('svg');}
+@font-face {
+	font-family: 'fzlantingheis-ul-gbregular';
+	src: url('fzltxhjt.eot?#iefix') format('embedded-opentype'),
+	url('fzltxhjt.woff2') format('woff2'),
+	url('fzltxhjt.woff') format('woff'),
+	url('fzltxhjt.ttf') format('truetype'),
+	url('fzltxhjt.svg#fzlantingheis-ul-gbregular') format('svg');
+}
