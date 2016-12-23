@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'fzltxhjt-gbregular';
+    src: url('../font/fzltxhjt.eot');
+    src: url('../font/fzltxhjt.eot?#iefix') format('embedded-opentype'),
+         url('../font/fzltxhjt.woff2') format('woff2'),
+         url('../font/fzltxhjt.woff') format('woff'),
+         url('../font/fzltxhjt.ttf') format('truetype'),
+         url('../font/fzltxhjt.svg#fzlantingheis-ul-gbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	font-family: 'fzltxhjt-gbregular';
+}
